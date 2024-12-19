@@ -1,0 +1,32 @@
+{
+  "name": "@ai16z/plugin-goat",
+  "version": "0.1.6-alpha.4",
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@ai16z/eliza": "v0.1.6-alpha.4",
+    "@goat-sdk/core": "0.4.0",
+    "@goat-sdk/plugin-coingecko": "0.1.4",
+    "@goat-sdk/plugin-erc20": "0.1.7",
+    "@goat-sdk/wallet-evm": "^0.2.0",
+    "@goat-sdk/wallet-lit": "^0.2.4",
+    "@goat-sdk/wallet-solana": "^0.2.4",
+    "@goat-sdk/wallet-viem": "^0.2.0",
+    "@lit-protocol/constants": "^7.0.2",
+    "@lit-protocol/lit-node-client": "^7.0.2",
+    "@lit-protocol/types": "^7.0.2",
+    "@lit-protocol/wrapped-keys": "^7.0.2",
+    "@solana/web3.js": "1.95.8",
+    "tsup": "8.3.5",
+    "viem": "2.21.53",
+    "zod": "^3.24.1"
+  },
+  "scripts": {
+    "build": "tsup --format esm --dts",
+    "dev": "tsup --format esm --dts --watch"
+  },
+  "peerDependencies": {
+    "whatwg-url": "7.1.0"
+  }
+}
