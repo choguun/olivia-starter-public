@@ -14,16 +14,8 @@ cp .env.example .env
 # Required for base functionality
 OPENAI_API_KEY=your_key_here
 
-# Required for GOAT plugin
-EVM_PROVIDER_URL=your_base_rpc_url    # e.g. from Alchemy
-EVM_PRIVATE_KEY=your_private_key      # without 0x prefix
-
-# Required for Shogun plugin
-EVM_PRIVATE_KEY=your_private_key      # without 0x prefix
-SOLANA_BASE_58_PRIVATE_KEY=your_solana_private_key
-SOLANA_PUBLIC_KEY=your_solana_public_key
-API_KEY=your_api_key
-BASE_URL=https://dextra-node-00000000000.app/v2/quote
+# LIT SDK
+WALLET_PRIVATE_KEY=your_wallet_private_key
 ```
 
 3. Install and run:
